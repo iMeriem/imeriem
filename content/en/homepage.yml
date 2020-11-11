@@ -1,0 +1,162 @@
+########################## hero area ##########################
+hero:
+  title : "Alternative Data"
+
+  # animated text loop
+  occupations:
+    - "Data Science"
+    - "Sentiment News"
+    - "Analytics"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "Contacto"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/trading.jpg"
+  first_name : "Alternative"
+  last_name : "DATA"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/mobiletrading.jpg"
+  title : "ACERCA DE NOSOTROS"
+  content : "Estamos revolucionando las inversiones con datos alternativa. Los datos alternativos para tomar mejores decisiones de negocio están creciendo rapidamente, nadie entiende como integrar y trabajar estos datos como nosotros. Extraemos la data alternativa, procesamos y analizamos utilizando innovadores algoritmos que entregan invaluable insight para tomar mejores decisiones de negocio"
+  # button
+  button:
+    enable : true
+    label : "INICIO"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "DATA ALTERNATIVA"
+  experience_list:
+    # experience item loop
+    - name : "Acceso a fuentes de Datos"
+      company : "News, Social Media, Web Scraping"
+      duration : 
+      content : "Recolección y acceso a diferentes datos estrructurados y no estructurados"
+      
+    # experience item loop
+    - name : "Exploración y preparación de los datos"
+      company : "EDA, Unsupervised learning"
+      duration : 
+      content : "Utilizando código y diferentes framework, preparamos los datos para obtener importantes insight que te ayuden a tomar mejores decisiones"
+      
+    # experience item loop
+    - name : "Automatización & Machine Learning"
+      company : "Predecir patrones de grandes bases de datos"
+      duration : 
+      content : "Utilizando innovadores algoritmos para encontrar patrones y automatizamos el envío de alertas en tiempo real."
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : ""
+  skill_list:
+    # skill item loop
+    - name : "Data Science"
+      parcentage : "100%"
+      
+    # skill item loop
+    - name : "Analytics"
+      parcentage : "100%"
+      
+    # skill item loop
+    - name : "Scraper"
+      parcentage : "100%"
+      
+    # skill item loop
+    - name : "Machine Learning"
+      parcentage : "100%"
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "SERVICIOS"
+  service_list:
+    # service item loop
+    - name : "Codigo"
+      image : "images/icons/web-development.png"
+      
+    # service item loop
+    - name : "Dashboard"
+      image : "images/icons/graphic-design.png"
+      
+    # service item loop
+    - name : "Integración de Datos"
+      image : "images/icons/dbms.png"
+      
+    # service item loop
+    - name : "Machine Learning"
+      image : "images/icons/software-development.png"
+      
+    # service item loop
+    - name : "Analytics"
+      image : "images/icons/marketing.png"
+      
+    # service item loop
+    - name : "Data Science"
+      image : "images/icons/mobile-app.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NECESITAS ALGUN SEVICIO?"
+  button:
+    enable : true
+    label : "Envianos un HOLA!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+
+################################# Testimonial #########################33
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "PROYECTOS EN CURSO"
+      image : "images/icons/works.png"
+      count : "10"
+      
+    # funfacts item loop
+    - name : "CLIENTES FELICES"
+      image : "images/icons/happy.png"
+      count : "33"
+      
+    # funfacts item loop
+    - name : "PROJECTOS TERMINADOS"
+      image : "images/icons/project.png"
+      count : "17"
+      
+    # funfacts item loop
+    - name : "REUNIONES ONLINE"
+      image : "images/icons/coffee.png"
+      count : "50"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "HOLA!"
